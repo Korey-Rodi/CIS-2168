@@ -1,0 +1,31 @@
+## 8 queens problem
+
+
+// <------ Q
+for(int i = 0; col - i >= 0; i++){
+	if(board[row][col-i] == "Queen") { // This will check if the queen can be placed there
+		return false;
+	}
+}
+
+// upper left
+for(int i = 0; COMPOUND STATEMENT &&; i++){
+
+
+
+## Sudoku problem
+
+public boolean solve(int [][] board, int row, int col){
+	// This is the base case's
+	if(col >= 9) {
+		col = 0;
+		row++;
+	}
+	if(row >= 9){
+		return true;
+	}
+	if(board[row][col] != 0){
+		return solve(board, row, col + 1);
+	}
+	// Use the same logic as the for loop as the previous problem
+}
